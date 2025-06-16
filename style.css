@@ -1,0 +1,243 @@
+.img-1 img{
+    width: 100%;
+    height: auto;
+}
+.img-2 img{
+    width: 100%;
+    height: auto;
+}.img-3 img{
+    width: 100%;
+    height: auto;
+}.img-4 img{
+    width: 100%;
+    height: auto;
+}.img-7 img{
+    width: 100%;
+    height: auto;
+}.img-9 img{
+    width: 100%;
+    height: auto;
+}.img-10 img{
+    width: 100%;
+    height: auto;
+}.img-12 img{
+    width: 100%;
+    height: auto;
+}
+.img-13 img{
+    width: 100%;
+    height: auto;
+}
+.main{
+    background-color: #2c3e54;
+}
+.control-dual-img{
+    display: none;
+}
+.text-sc-14 p{
+    text-align: center !important;
+}
+.img-1 img{
+    width: 100%;
+    height: auto;
+}
+.img-2 img{
+    width: 100%;
+    height: auto;
+}.img-3 img{
+    width: 100%;
+    height: auto;
+}.img-4 img{
+    width: 100%;
+    height: auto;
+}.img-7 img{
+    width: 100%;
+    height: auto;
+}.img-9 img{
+    width: 100%;
+    height: auto;
+}.img-10 img{
+    width: 100%;
+    height: auto;
+}.img-12 img{
+    width: 100%;
+    height: auto;
+}
+.img-13 img{
+    width: 100%;
+    height: auto;
+}
+.main{
+    background-color: #2c3e54;
+}
+.control-dual-img{
+    display: none;
+}
+.text-sc-14{
+    text-align: center;
+}
+
+/* Import Google Fonts (nếu chưa có) */
+
+/* Cột chữ nội dung */
+.container {
+    max-width: 720px !important;
+    margin: 0 auto;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+
+/* Văn bản nội dung chính */
+.container p {
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+/* Câu hỏi: bold, font Inter Tight */
+.container p strong {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: block;
+    margin: 30px 0 12px;
+    color: white;
+}
+.title-1-st p{
+    background-color: #2C3E50;
+    color: white;
+    font-family: 'Favela', sans-serif;
+    font-size: 28px;
+    font-weight: normal; /* vì là Regular */
+    line-height: 1.6;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+@font-face {
+    font-family: 'Favela';
+    src: url('./font/favela/FavelaRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.title-1-st p strong{
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+}
+.text-sc-14 p {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 18px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+    margin: 7px 0;
+}
+
+.text-sc-14 span {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: none; /* bỏ in hoa nếu không muốn */
+}
+
+.text-sc-14 span {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.sc-14{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/*
+*/
+
+/* ========== Responsive Mobile ========== */
+@media (max-width: 767px) {
+    .control-dual-img img{
+        height: auto;
+        width: 100%;
+    }
+    .img-7{
+        display: none;
+    }
+    /* Tối ưu phần container */
+    .container {
+        padding: 0 16px;
+    }
+    .control-dual-img {
+        display: block;
+    }
+    /* Đoạn intro đầu tiên (title-1-st) */
+    .title-1-st p {
+        font-size: 20px;
+        padding: 30px 16px;
+    }
+
+    .title-1-st p strong {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    /* Đoạn nội dung chính */
+    .container p {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: justify;
+    }
+
+    .container p strong {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    /* Các ảnh */
+    .img-1 img,
+    .img-2 img,
+    .img-3 img,
+    .img-4 img,
+    .img-7 img,
+    .img-9 img,
+    .img-10 img,
+    .img-12 img,
+    .img-13 img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+    }
+
+    /* Text nhỏ bên dưới ảnh */
+    .text-sc-14 p {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center !important;
+    }
+
+    .text-sc-14 span {
+        font-size: 14px;
+    }
+
+    /* Padding vùng SC-14 */
+    .sc-14 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /* Nếu có ảnh đôi (hiển thị cột khi mobile) */
+    .control-dual-img {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+}
